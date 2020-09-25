@@ -1,0 +1,28 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#388E3C",
+    "activityBar.activeBorder": "#388E3C",
+    "menu.selectionForeground": "#388E3C",
+    "editor.background": "#1d1d25"
+  },
+  "editor.tokenColorCustomizations": {
+    "[Default Dark+]": {
+      "keywords": "#388E3C",
+      "comments": "#226125",
+      "textMateRules": [
+        {
+          "scope": "entity.name.tag",
+          "settings": {
+            "foreground": "#1a7a12",
+            "fontStyle": "bold"
+          }
+        }
+      ]
+    }
+  },
+"workbench.preferredDarkColorTheme": "Material Theme High Contrast",
+"workbench.colorTheme": "Community Material Theme High Contrast"
+}

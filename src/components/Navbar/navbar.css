@@ -1,0 +1,84 @@
+header {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.logo h1 {
+  text-transform: uppercase;
+}
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+nav .menu-list {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.menu-list li a {
+  color: #666;
+  padding: 0 15px;
+}
+.menu-list li a:hover {
+  color: lightseagreen;
+}
+nav .nav-cart {
+  cursor: pointer;
+  position: relative;
+}
+nav .nav-cart span {
+  position: absolute;
+  top: -12px;
+  z-index: -1;
+  right: -15px;
+  background: crimson;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.menu,
+.close {
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 690px) {
+  header nav .menu-list {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: lightslategray;
+    z-index: 1;
+    transition: 0.5s linear;
+    transform: translateX(-100%);
+  }
+  header nav .menu-list li a {
+    color: #111;
+    font-weight: bold;
+  }
+  header .menu,
+  header .close {
+    display: block;
+  }
+  header .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+  }
+  header nav .menu-list.open {
+    transform: translateX(0%);
+  }
+}

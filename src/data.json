@@ -1,0 +1,50 @@
+[
+  {
+    "_id": 1,
+    "image": "https://www.kochmesser.com/media/image/product/216/lg/chroma-type-301-santoku-178-cm-design-von-fa-porsche.jpg",
+    "name": "CHROMA Type 301 Santoku",
+    "price": 119.0,
+    "description": "Typ 301 Santukomesser 17,8 cm, design von F.A. Porsche",
+    "stock": 5
+  },
+  {
+    "_id": 2,
+    "image": "https://www.kochmesser.com/media/image/product/3764/lg/dick-serie-1905-kochmesser-ajax.jpg",
+    "name": "Dick Serie 1905 Kochmesser Ajax",
+    "price": 94.6,
+    "description": "Dick Kochmesser Ajax aus der 1905 Serie 22 cm ",
+    "stock": 3
+  },
+  {
+    "_id": 3,
+    "image": "https://www.kochmesser.com/media/image/product/3217/lg/f-dick-kochmesser-ajax-red-spirit-20cm.jpg",
+    "name": "F. DICK Kochmesser Ajax Red Spirit",
+    "price": 68.9,
+    "description": "Das Ajax Kochmesser aus der Red Spirit Serie von Dick",
+    "stock": 6
+  },
+  {
+    "_id": 4,
+    "image": "https://www.kochmesser.com/media/image/product/3607/lg/f-dick-zerlegemesser-mit-kullenschliff-hektor-red-spirit.jpg",
+    "name": "F. DICK Zerlegemesser",
+    "price": 66.37,
+    "description": "Ideal zum Zerlegen von Fleisch- und Fischstücken - perfekt als \"Brisketmesser\" ",
+    "stock": 4
+  },
+  {
+    "_id": 5,
+    "image": "https://www.kochmesser.com/media/image/product/188/lg/japanisches-sandwich-knife-155-cm-aus-der-serie-kiwami.jpg",
+    "name": "Kiwami Sandwich-Knife",
+    "price": 99.9,
+    "description": "33 Lagen Damaststahl und Griff aus Pakkaholz. ",
+    "stock": 2
+  },
+  {
+    "_id": 6,
+    "image": "https://www.kochmesser.com/media/image/product/177/lg/kasumi-ausbeinmesser-16-cm-aus-32-lagen-damast.jpg",
+    "name": "Kasumi Ausbeinmesser",
+    "price": 159.0,
+    "description": "Kasumi Ausbeinmesser, 16 cm aus 32 Lagen Damast",
+    "stock": 3
+  }
+]
