@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from "react";
 import KnifeContext from "../KnifeContext";
 import data from "../data.json";
 
 export default function KnifeProvider(props) {
-    return (
-        <KnifeContext.Provider value={{data}}>
-            {props.children}
-        </KnifeContext.Provider>
-    )     
+  const [cart, setCart] = useState([]);
+  return (
+    <KnifeContext.Provider value={{ data, cart, setCart }}>
+      {props.children}
+    </KnifeContext.Provider>
+  );
 }

@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
+import KnifeContext from "../../KnifeContext";
 import Bars from "../../svg/bars-solid.svg";
 import Cart from "../../svg/shopping-cart-solid.svg";
 import Times from "../../svg/times-solid.svg";
@@ -7,6 +8,7 @@ import "./navbar.css";
 
 export default function Navbar() {
   let [openNav, setOpenNav] = useState(false);
+  const { cart } = useContext(KnifeContext);
 
   let menuClass = "menu-list ";
   menuClass += openNav && "open";
@@ -42,7 +44,7 @@ export default function Navbar() {
             </li>
           </ul>
           <div className="nav-cart">
-            <span>0</span>
+            <span>{cart.length}</span>
             <Link to="/cart">
               <img src={Cart} width="20" alt="cart" />
             </Link>
